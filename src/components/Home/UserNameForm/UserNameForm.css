@@ -1,0 +1,18 @@
+.user_form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.u_name_input {
+  height: 50px;
+}
+@media (min-width: 768px) {
+  .u_name_input {
+    width: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .u_name_input {
+    width: 500px;
+  }
+}

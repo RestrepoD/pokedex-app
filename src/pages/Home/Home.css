@@ -1,0 +1,14 @@
+.logo_cont img {
+  max-width: 100%;
+}
+.home_title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  color: red;
+}
+.home_desc {
+  font-size: 20px;
+  text-align: center;
+}

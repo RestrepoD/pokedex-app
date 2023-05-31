@@ -1,0 +1,26 @@
+.p_card_cont {
+  margin-top: 45px;
+  color: unset;
+  text-decoration: unset;
+  width: 300px;
+  padding: 1rem;
+  background-color: rgb(196, 228, 217);
+  border-radius: 5px;
+}
+.p_card_img {
+  width: 290px;
+  height: 290px;
+}
+.p_card_img img {
+  max-width: 80%;
+}
+.p_card_list {
+  max-width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.p_card_list li {
+  max-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
