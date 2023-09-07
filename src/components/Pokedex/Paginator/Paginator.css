@@ -1,0 +1,42 @@
+.pages_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_numbers {
+  width: 80%;
+}
+
+.pages_btn {
+  margin: 0.5rem;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Inconsolata", monospace;
+  background-color: #fe1936;
+  color: #e5e5e5;
+  border: none;
+  border-radius: 15%;
+}
+.pages_btn:hover {
+  cursor: pointer;
+  scale: 110%;
+  transition: 0.2s;
+}
+
+.change_btn {
+  margin: 0.5rem;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Inconsolata", monospace;
+  background-color: #fe1936;
+  color: #e5e5e5;
+  border: none;
+  border-radius: 15%;
+}
+.change_btn:hover {
+  cursor: pointer;
+  scale: 110%;
+  transition: 0.2s;
+}

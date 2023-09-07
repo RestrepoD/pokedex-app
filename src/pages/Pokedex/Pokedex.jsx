@@ -10,7 +10,7 @@ const Pokedex = () => {
   const { pokemons, pokemonName, pokemonTypeId } = useLoaderData();
 
   return (
-    <section>
+    <section className="pokedex_cont">
       <p className="pkdx_msg">
         <em className="pkdx_msg_username">Welcome {userName}</em>, here you can
         find your favourite pokemon

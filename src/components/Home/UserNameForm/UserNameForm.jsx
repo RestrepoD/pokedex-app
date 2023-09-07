@@ -25,15 +25,19 @@ const UserNameForm = ({ onStart }) => {
 
   return (
     <form onSubmit={handleSubmit} className="user_form">
-      <input
-        type="text"
-        placeholder="Your name..."
-        value={userNameValue}
-        onChange={handleChange}
-        className="u_name_input"
-      />
-      <button type="submit">Start</button>
-      {Boolean(nameError) && <p>{nameError}</p>}
+      <div className="user_name_cont">
+        <input
+          type="text"
+          placeholder="Your name..."
+          value={userNameValue}
+          onChange={handleChange}
+          className="user_name_input"
+        />
+        <button type="submit" className="start_btn">
+          Start
+        </button>
+      </div>
+      {Boolean(nameError) && <p className="u_name_error">{nameError}</p>}
     </form>
   );
 };

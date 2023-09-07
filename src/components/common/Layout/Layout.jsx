@@ -14,9 +14,14 @@ const Layout = () => {
 
   return (
     <div>
-      <header className="header_cont">
-        <h1>Pokedex</h1>
-        <button onClick={logOut}>Log out</button>
+      <header className="header">
+        <img src="public/upper.svg" alt="" className="upper_bkg" />
+        <div className="over">
+          <h1 className="title_img">
+            <img src="public/pokedex.svg" alt="" />
+          </h1>
+          <button onClick={logOut}>Log out</button>
+        </div>
       </header>
 
       <main>

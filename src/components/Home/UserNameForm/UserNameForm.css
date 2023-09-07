@@ -2,17 +2,52 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.u_name_input {
+.user_name_cont {
+  max-width: 90%;
+  display: flex;
+}
+.user_name_input {
+  width: 300px;
   height: 50px;
+  font-size: 18px;
 }
-@media (min-width: 768px) {
-  .u_name_input {
-    width: 300px;
+.start_btn {
+  width: 75px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: #d93f3f;
+}
+.start_btn:hover {
+  cursor: pointer;
+  background-color: #fc7171;
+  box-shadow: 0 0 5px 1px #d93f3f;
+}
+@media (min-width: 1440px) {
+  .user_name_input {
+    width: 500px;
+    height: 75px;
+    font-size: 20px;
+  }
+  .start_btn {
+    width: 125px;
+    font-size: 20px;
   }
 }
-@media (min-width: 768px) {
-  .u_name_input {
-    width: 500px;
+@media (min-width: 2560px) {
+  .user_name_input {
+    width: 700px;
+    height: 100px;
+    font-size: 30px;
+  }
+  .start_btn {
+    width: 145px;
+    font-size: 30px;
+  }
+  .u_name_error {
+    font-size: 40px;
   }
 }

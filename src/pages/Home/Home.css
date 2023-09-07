@@ -1,14 +1,36 @@
+.logo_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .logo_cont img {
-  max-width: 100%;
+  max-width: 80%;
 }
 .home_title {
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
   text-align: center;
-  color: red;
+  color: #d93f3f;
 }
 .home_desc {
   font-size: 20px;
   text-align: center;
+}
+.sub {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+@media (min-width: 2560px) {
+  .logo_cont img {
+    width: 50%;
+  }
+  .home_desc {
+    font-size: 40px;
+  }
+  .home_title {
+    font-size: 90px;
+  }
 }

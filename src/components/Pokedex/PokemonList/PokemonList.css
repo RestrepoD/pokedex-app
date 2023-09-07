@@ -1,3 +1,8 @@
+.link_comp {
+  color: unset;
+  text-decoration: unset;
+}
+
 .p_list_cont {
   list-style: none;
   border: none;
@@ -8,11 +13,13 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(auto-fill, auto);
 }
+
 .p_list_i {
   color: unset;
   text-decoration: unset;
   text-align: unset;
 }
+
 @media (min-width: 320px) {
   .p_list_cont {
     margin: 35px;
@@ -20,6 +27,7 @@
     grid-template-rows: repeat(auto-fill, auto);
   }
 }
+
 @media (min-width: 768px) {
   .p_list_cont {
     margin: 35px;
@@ -27,6 +35,7 @@
     grid-template-rows: repeat(auto-fill, auto);
   }
 }
+
 @media (min-width: 1024px) {
   .p_list_cont {
     margin: 35px;
@@ -34,6 +43,7 @@
     grid-template-rows: repeat(auto-fill, auto);
   }
 }
+
 @media (min-width: 1440px) {
   .p_list_cont {
     margin: 35px;
