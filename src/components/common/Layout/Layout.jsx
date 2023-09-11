@@ -15,10 +15,17 @@ const Layout = () => {
   return (
     <div>
       <header className="header">
-        <img src="public/upper.svg" alt="" className="upper_bkg" />
+        <img
+          src="https://res.cloudinary.com/dniyckep8/image/upload/v1694196622/sub_bozprx.svg"
+          alt=""
+          className="upper_bkg"
+        />
         <div className="over">
           <h1 className="title_img">
-            <img src="public/pokedex.svg" alt="" />
+            <img
+              src="https://res.cloudinary.com/dniyckep8/image/upload/v1694196622/pokedex_f5utzj.svg"
+              alt=""
+            />
           </h1>
           <button onClick={logOut}>Log out</button>
         </div>

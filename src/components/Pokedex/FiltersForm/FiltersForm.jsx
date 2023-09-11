@@ -53,9 +53,11 @@ const FiltersForm = ({ initialName, initialType }) => {
           onChange={handleTypeChange}
           className="f_type_select"
         >
-          <option value="">all</option>
+          <option value="" className="option">
+            all
+          </option>
           {types.map((type) => (
-            <option key={type.id} value={type.id}>
+            <option key={type.id} value={type.id} className="option">
               {type.name}
             </option>
           ))}

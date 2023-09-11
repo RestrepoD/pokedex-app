@@ -5,14 +5,20 @@
 .f_type_select {
   width: 65px;
   margin-bottom: 2rem;
+  font-size: 18px;
 }
 
 .f_input_name {
   width: 350px;
-  padding: 20px 25px;
+  padding: 1rem;
   margin-bottom: 2rem;
   background: #ffffff;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+}
+
+.option {
+  font-size: 18px;
 }
 
 .f_btn {

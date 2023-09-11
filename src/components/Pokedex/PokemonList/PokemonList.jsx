@@ -6,7 +6,7 @@ import PokemonCard from "../PokemonCard/PokemonCard";
 import "./PokemonList.css";
 
 const PokemonList = ({ pokemons }) => {
-  const [pokemonsPerPage, setPokemonsPerPage] = useState(20);
+  const [pokemonsPerPage] = useState(63);
   const [currentPage, totalPages, pokemonSlice, changePageTo] = usePagination(
     pokemons,
     pokemonsPerPage

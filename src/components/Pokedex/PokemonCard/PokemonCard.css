@@ -7,6 +7,13 @@
   background-color: rgb(196, 228, 217);
   border-radius: 5px;
 }
+.p_card_cont:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0px 0px 75px rgba(0, 9, 51, 0.445);
+  scale: 105%;
+}
+
 .p_card_img {
   width: 290px;
   height: 290px;
@@ -14,6 +21,7 @@
 .p_card_img img {
   max-width: 80%;
 }
+
 .p_card_list {
   max-width: 100%;
   list-style: none;

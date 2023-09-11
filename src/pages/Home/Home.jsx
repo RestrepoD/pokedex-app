@@ -18,14 +18,21 @@ const Home = () => {
   return (
     <section>
       <div className="logo_cont">
-        <img src="../../../public/pokedex.svg" alt="Pokedex" />
+        <img
+          src="https://res.cloudinary.com/dniyckep8/image/upload/v1694196622/pokedex_f5utzj.svg"
+          alt="Pokedex"
+        />
       </div>
       <h1 className="home_title">Hello, trainer!</h1>
       <p className="home_desc">Introduce your name to start</p>
       <div className="home_form_cont">
         <UserNameForm onStart={handleSendName} />
       </div>
-      <img src="../../../public/sub.svg" alt="sub" className="sub" />
+      <img
+        src="https://res.cloudinary.com/dniyckep8/image/upload/v1694196622/sub_bozprx.svg"
+        alt="sub"
+        className="sub"
+      />
     </section>
   );
 };
